@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		"editorconfig.editorconfig",
+		"shevaua.phpcs",
+		"persoderlind.vscode-phpcbf",
+		"neilbrayfield.php-docblocker",
+		"wix.vscode-import-cost",
+		"GitHub.copilot",
+		"GitHub.copilot-chat",
+		"emilast.LogFileHighlighter",
+		"rifi2k.format-html-in-php",
+		"pranaygp.vscode-css-peek",
+		"Gruntfuggly.todo-tree",
+		"dbaeumer.vscode-eslint",
+		"stylelint.vscode-stylelint",
+	]
+}

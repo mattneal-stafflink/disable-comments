@@ -1,0 +1,41 @@
+{
+    "editor.quickSuggestions": {
+      "comments": true
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": "explicit",
+      "source.fixAll.eslint": "explicit"
+    },
+    "[php]": {
+      "editor.formatOnPaste": false
+    },
+    "phpcs.executablePath": "vendor/bin/phpcs",
+    "phpcs.showWarnings": true,
+    "phpcs.trace.server": "messages",
+    "phpcs.enable": true,
+    "phpcs.standard": "WordPress",
+    "phpcbf.enable": true,
+    "phpcbf.onsave": true,
+    "phpcbf.standard": "WordPress",
+    "phpcbf.executablePath": "./vendor/bin/phpcbf",
+    "files.associations": {
+      ".php_cs": "php",
+      ".php_cs.dist": "php",
+      "*.php": "php"
+    },
+    "phpcs.ignorePatterns": [
+      "*/vendor/*",
+      "*/vendors/*"
+    ],
+    "saveAndRun": {
+      "commands": [
+        {
+          "match": "\\.php$",
+          "cmd": "phpcbf -q --standard='WordPress' ${file}",
+          "silent": true
+        }
+      ]
+    },
+    "lando-ui.workspaceFolder.default": "",
+  }
+  
